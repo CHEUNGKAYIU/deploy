@@ -6,8 +6,7 @@
  * - Deno Deploy: deno deploy --project=<project-name> main.ts
  * - 本地调试: deno run --allow-net --allow-env main.ts
  */
-​
-// ========== 类型定义 ==========
+
 interface Message {
   role: string;
   content: string;
